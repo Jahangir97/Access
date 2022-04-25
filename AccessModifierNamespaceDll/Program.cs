@@ -6,12 +6,12 @@ namespace AccessModifierNamespaceDll
     {
         static void Main(string[] args)
         {
-            Group group = new Group("163A1", 2);
-            Console.WriteLine("Group No: 163A1\n");
+            Group group = new Group("23aa", 2);
+            Console.WriteLine("Group No: 23aa\n");
 
-            Student student1 = new Student("Oruc", "Mehrabov");
-            Student student2 = new Student("Qabil", "Huseynli");
-            Student student3 = new Student("Oguzhan", "Maden");
+            Student student1 = new Student("Cahangir", "Nagiz");
+            Student student2 = new Student("Arzu", "Rehmanova");
+            Student student3 = new Student("Resul", "Cunayev");
 
             group.AddStudent(student1);
             group.AddStudent(student2);
